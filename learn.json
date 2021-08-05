@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://lavender-marten-u1jf8ven.ws-us10.gitpod.io",
+        "address": "https://lavender-marten-u1jf8ven.ws-us14.gitpod.io",
         "editor": {
             "mode": "gitpod",
             "version": "1.0.61"
@@ -14,6 +14,9 @@
         "exercisesPath": ".learn/exercises",
         "disableGrading": false,
         "actions": [
+            "build",
+            "test",
+            "reset",
             "build",
             "test",
             "reset"
@@ -119,6 +122,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/02-pipenv-installation/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/02-pipenv-installation/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -146,6 +154,11 @@
                 {
                     "path": ".learn/exercises/02.1-flask-installation/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02.1-flask-installation/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -179,6 +192,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/03-first-flask-app/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/03-first-flask-app/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -206,6 +224,11 @@
                 {
                     "path": ".learn/exercises/03.1-app-run/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.1-app-run/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -264,6 +287,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/03.3-your-first-route/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/03.3-your-first-route/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -319,6 +347,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/05-returning-json/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/05-returning-json/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -346,6 +379,11 @@
                 {
                     "path": ".learn/exercises/06-check-for-live/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/06-check-for-live/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -379,6 +417,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/07-post_todo/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/07-post_todo/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -406,6 +449,11 @@
                 {
                     "path": ".learn/exercises/07.1-test-post-todo/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.1-test-post-todo/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -439,12 +487,17 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/07.2-finish-post-todo/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/07.2-finish-post-todo/test.py",
                     "name": "test.py",
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 14,
@@ -474,7 +527,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 15,
@@ -504,7 +557,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 16,
@@ -534,7 +587,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         }
     ]
 }
